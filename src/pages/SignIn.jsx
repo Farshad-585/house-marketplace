@@ -33,7 +33,7 @@ function SignIn() {
       )
 
       if (userCredential.user) {
-        navigate('/')
+        navigate('/profile')
       }
     } catch (error) {
       toast.error('Bad User Credentials')
